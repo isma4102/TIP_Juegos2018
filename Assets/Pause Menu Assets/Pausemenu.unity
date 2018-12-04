@@ -294,6 +294,11 @@ Prefab:
       propertyPath: m_Text
       value: Volver
       objectReference: {fileID: 0}
+    - target: {fileID: 114138968746794850, guid: 2e85d10fa02fc4540bf5a07378f08993,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Iniciar
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e85d10fa02fc4540bf5a07378f08993, type: 2}
   m_IsPrefabAsset: 0

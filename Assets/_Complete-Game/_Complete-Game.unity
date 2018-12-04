@@ -412,6 +412,29 @@ Prefab:
       propertyPath: mainCamObj
       value: 
       objectReference: {fileID: 1851598977}
+    - target: {fileID: 224406759368358312, guid: d973249b3453e5349a41ae469bb16b8f,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1353173912702062, guid: d973249b3453e5349a41ae469bb16b8f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114736571444338068, guid: d973249b3453e5349a41ae469bb16b8f,
+        type: 2}
+      propertyPath: m_Text
+      value: Volver
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674342281202118, guid: d973249b3453e5349a41ae469bb16b8f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114679409575978914, guid: d973249b3453e5349a41ae469bb16b8f,
+        type: 2}
+      propertyPath: m_Text
+      value: Volver
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d973249b3453e5349a41ae469bb16b8f, type: 2}
   m_IsPrefabAsset: 0
