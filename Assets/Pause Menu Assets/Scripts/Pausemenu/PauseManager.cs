@@ -366,6 +366,11 @@ namespace GreatArcStudios
         /// </summary>
         public void Restart()
         {
+           Application.LoadLevel(Application.loadedLevel);
+            uiEventSystem.firstSelectedGameObject = defualtSelectedMain;
+        
+        }
+        public void Iniciar(){
            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         /// <summary>
