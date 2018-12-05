@@ -11,15 +11,18 @@ public class Movimiento_Jugador : MonoBehaviour {
     Rigidbody rigidabody;
     int capaSuelo;
     float Raylongitud = 100f;
+    //public AudioSource pasos;
+    //AudioSource pasos2;
 
     void Awake()
     {
         animaciones = GetComponent<Animator>();
         rigidabody = GetComponent<Rigidbody>();
         capaSuelo = LayerMask.GetMask("Floor");
+        //pasos2= GetComponent<AudioSource>();
     }
 
-        void FixedUpdate()
+    void FixedUpdate()
         {
             float h = Input.GetAxisRaw("Horizontal");
             float v = Input.GetAxisRaw("Vertical");
@@ -35,8 +38,8 @@ public class Movimiento_Jugador : MonoBehaviour {
         movimiento.Set(h, 0f, v);
         movimiento = movimiento.normalized * velocidad * Time.deltaTime;
         rigidabody.MovePosition(transform.position + movimiento);
-
-
+     //   pasos2.clip = pasos;
+     //   pasos2.Play();
     }
     void RotacionJugador()
     {

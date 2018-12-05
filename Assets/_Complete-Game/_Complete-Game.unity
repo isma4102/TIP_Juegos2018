@@ -412,6 +412,16 @@ Prefab:
       propertyPath: mainCamObj
       value: 
       objectReference: {fileID: 1851598977}
+    - target: {fileID: 224406759368358312, guid: d973249b3453e5349a41ae469bb16b8f,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114685634543354902, guid: d973249b3453e5349a41ae469bb16b8f,
+        type: 2}
+      propertyPath: music.Array.data[0]
+      value: 
+      objectReference: {fileID: 1849125079}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d973249b3453e5349a41ae469bb16b8f, type: 2}
   m_IsPrefabAsset: 0
@@ -7245,10 +7255,10 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1341909960}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4fff99673a41e24439d527ad0bd6b569, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9f9841233ded8d04cb6ac5d5e135ceab, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -12979,7 +12989,7 @@ MonoBehaviour:
   obtenerVida: 0
   barraVida: {fileID: 289895423}
   efectoDamage: {fileID: 1480177474}
-  sonidoDamage: {fileID: 0}
+  sonidoDamage: {fileID: 8300000, guid: 55a7c99f86b851348b90efce929442c4, type: 3}
   velocidadFlash: 5
   colorFlash: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!4 &1753110450
@@ -13220,6 +13230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 6
+  pasos: {fileID: 8300000, guid: 9c213cb2589a45e478a902b9c8600f9c, type: 3}
 --- !u!136 &1849125078
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -13244,7 +13255,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9922a12f34d0a084aab32de985459723, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 37fdda45818b5324cbcc4180c7b29bf8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

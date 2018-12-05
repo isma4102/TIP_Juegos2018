@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.IO;
 using UnityEngine.SceneManagement;
+
 //using UnityStandardAssets.ImageEffects;
 /// <summary>
 ///  Copyright (c) 2016 Eric Zhu 
@@ -16,6 +17,9 @@ namespace GreatArcStudios
     /// </summary>
     public class PauseManager : MonoBehaviour
     {
+		//public AudioClip musica;
+		//AudioSource sonido;
+		
         /// <summary>
         /// This is the main panel holder, which holds the main panel and should be called "main panel"
         /// </summary> 
@@ -280,7 +284,8 @@ namespace GreatArcStudios
         /// </summary>
         public void Start()
         {
-           
+         //  sonido = GetComponent<AudioSource>();
+		   
             readUseSimpleTerrain = useSimpleTerrain;
             if (useSimpleTerrain)
             {
@@ -450,7 +455,7 @@ namespace GreatArcStudios
 
             if (Input.GetKeyDown(KeyCode.Escape) && mainPanel.active == false)
             {
-
+				//sonido.click(sonido);
                 uiEventSystem.SetSelectedGameObject(defualtSelectedMain);
                 mainPanel.SetActive(true);
                 vidPanel.SetActive(false);
